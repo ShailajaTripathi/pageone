@@ -1,0 +1,24 @@
+.process-container{
+    background-color: white;
+    margin-left:9%;
+}
+.btn-group{
+    display:flex;
+    justify-content:space-around;
+    margin:0;
+    padding:0;
+}
+.btn-group div{
+    margin-left:-25%;
+    padding:0;
+}
+
+.btn-scroll{
+    color: #888;
+    text-decoration: underline;
+
+}
+.btn-scroll:hover{
+    color:#ec1e64;
+    text-decoration:none;
+}
