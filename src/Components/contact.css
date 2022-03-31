@@ -1,5 +1,7 @@
 .contact-details{
     display:flex;
+    /* justify-content: space-between; */
+    margin-right:3%;
 }
 
 .form-container{
@@ -41,10 +43,23 @@ input, select, textarea {
       display: flex;
       flex-direction:column;
       justify-content:space-between;
-      margin-right: 10%;
-      margin-bottom: 10%;
+     margin-bottom: 10%;
+     /* width:150%; */
   }
   .contact-data p{
-      font-size:28px;
+      font-size:25px;
       text-align: left;
   }
+  /* .address-span{
+      display: block;
+  } */
+  .fas{
+  
+      border-radius: 50%;
+      border:3px solid rgb(245, 244, 244);
+      padding:5%;
+
+}
+.icon-span{
+  padding-left: 5%;
+}
