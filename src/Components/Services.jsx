@@ -3,7 +3,7 @@ import "./service.css";
 
 function Services() {
   return (
-      <div className="main-container">
+      <div className="main-container" id="services">
     <div className="container">
       <div className="top-container">
         <div className="heading">

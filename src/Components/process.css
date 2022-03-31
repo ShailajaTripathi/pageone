@@ -22,3 +22,39 @@
     color:#ec1e64;
     text-decoration:none;
 }
+
+/* bottom-section css */
+
+.box-row{
+    display: inline-flex;
+}
+.active-box{
+    border: 3px solid #ec1e64;
+    padding:2%;
+    text-align: left;
+    margin:3%;
+}
+.box-items{
+    border: 3px solid #efefef;
+    padding:2%;
+    text-align: left;
+    margin:3%;
+}
+.box-items:hover{
+    border: 3px solid #ec1e64;
+}
+.top-number{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: #999;
+}
+.box-heading{
+    font-size: 18px;
+    color: #ec1e64;
+    font-weight: 600;
+}
+.box-details{
+    font-size:large;
+}

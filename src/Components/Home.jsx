@@ -3,8 +3,8 @@ import "./home.css";
 
 function Home() {
   return (
-    <div>
-      <div className="main-section">
+    <div id ="home">
+      <div className="main-section" >
         <h1>
           We are web agency based <br />  in Los Angeles, CA
         </h1>

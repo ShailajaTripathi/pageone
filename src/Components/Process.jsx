@@ -4,7 +4,8 @@ import "./service.css";
 
 function Process() {
   return (
-    <div className="process-container">
+      
+    <div className="process-container" id="process">
       <div className="top-container">
         <div className="heading">
           <h1>Our Process</h1>
@@ -31,29 +32,70 @@ function Process() {
         </div>
       </div>
 
-{/* first-section ends here */}
+      {/* first-section ends here */}
+      
+      {/* upper-row */}
+      <div className="last-section">
+        <div className="box-row">
+          <div className="active-box">
+            <p className="top-number">01</p>
+            <h3 className="box-heading">Information Gathering</h3>
+            <p className="box-details">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
 
-{/* upper-row */}
-<div className="bottom-section">
-<div className="box-row">
-    <div className="box-item"></div>
-    <div className="box-item"></div>
-    <div className="box-item"></div>
-</div>
+          <div className="box-items">
+            <p className="top-number">02</p>
+            <h3 className="box-heading">Planning</h3>
+            <p className="box-details">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
 
-{/* lower row */}
-<div className="box-row">
+          <div className="box-items">
+            <p className="top-number">03</p>
+            <h3 className="box-heading">Design</h3>
+            <p className="box-details">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+        </div>
 
-<div className="box-item"></div>
-<div className="box-item"></div>
-<div className="box-item"></div>
+        {/* lower row */}
+        <div className="box-row">
+          <div className="box-items">
+            <p className="top-number">04</p>
+            <h3 className="box-heading">Development</h3>
+            <p className="box-details">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
 
-</div> 
-</div>
+          <div className="box-items">
+            <p className="top-number">05</p>
+            <h3 className="box-heading">Testing and Delivery</h3>
+            <p className="box-details">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
 
-
-
-
+          <div className="box-items">
+            <p className="top-number">06</p>
+            <h3 className="box-heading">Maintenance</h3>
+            <p className="box-details">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+        </div>
+    
+    </div>
     </div>
   );
 }

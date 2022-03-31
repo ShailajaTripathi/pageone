@@ -1,0 +1,39 @@
+.contact-details{
+    display:flex;
+}
+
+.form-container{
+    margin-left:5%;
+    margin-right:5%;
+}
+input, select, textarea {
+    width: 100%;
+    border: 2px solid #e9ecef;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    height: 65px;
+  }
+  input, label {
+    display:block;
+    
+}
+  input,textarea:focus{
+    outline-color:#ec1e64;
+  }
+  .form-container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
+  label{
+      font-size:18px;
+      font-weight:lighter;
+      float:left;
+  }
+  .form-flex{
+      display: flex;
+      justify-content:space-between;
+  }

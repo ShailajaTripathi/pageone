@@ -1,0 +1,45 @@
+.client-container{
+    background-color: black;
+    color:white;
+    padding-bottom: 5%;
+
+}
+.client-heading{
+    position: relative;
+    font-size: 35px;
+    font-weight: 700;
+    width:63%;
+    margin-left:15%;
+    text-align: left;
+}
+.client-item{
+    background-color:white;
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 / 10%);
+    background: #fff;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom:5%;
+    padding-top: 3%;
+    margin-right:3%;
+    text-align: left; 
+}
+.client-item img{
+    margin-bottom: 30px;
+    height: 40px;
+}
+.client-item h1{
+    font-size: 20px;
+    color: #ec1e64;
+    font-weight: 600;
+}
+.client-item p{
+    color:black;
+    text-align: left;
+   
+}
+.client-item-box{
+    display: flex;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
