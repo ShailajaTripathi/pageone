@@ -37,3 +37,14 @@ input, select, textarea {
       display: flex;
       justify-content:space-between;
   }
+  .contact-data{
+      display: flex;
+      flex-direction:column;
+      justify-content:space-between;
+      margin-right: 10%;
+      margin-bottom: 10%;
+  }
+  .contact-data p{
+      font-size:28px;
+      text-align: left;
+  }

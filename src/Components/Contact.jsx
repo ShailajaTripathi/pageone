@@ -51,7 +51,15 @@ function Contact() {
             </form>
          
         </div>
-        <div className="social-media"></div>
+        {/* <div className="social-media-icons">
+   
+        </div> */}
+
+        <div className="contact-data">
+<p>155 Market St #101, Paterson, NJ<br/> 07505, United States</p>
+<p>+1 202 2020 200</p>
+<p>@info@mydomain.com</p>
+        </div>
       </div>
     </div>
   );
